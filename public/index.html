@@ -15,7 +15,9 @@
             };
 
             var dependencies = [
-                'customActivity'
+                function myFunction() {
+                    alert("I am an alert box!");
+                }
             ];
 
             require(config, dependencies);
@@ -31,11 +33,7 @@
                
                 <button onclick="myFunction()">Try it</button>
 
-<script>
-function myFunction() {
-  alert("I am an alert box!");
-}
-</script>            </main>
+            </main>
             
 
         </div>

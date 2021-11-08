@@ -31,7 +31,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "__application_key_from_appcenter_here__",
+      "applicationExtensionKey": "9e34e7dd-85ba-424e-93fc-9904d25e00ee",
       "save": {
         "url": "https://icon-wechat.herokuapp.com/journeybuilder/save",
           "verb": "POST",
